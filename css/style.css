@@ -157,6 +157,15 @@ border-bottom: 4px solid #7f392d;
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
             gap: 25px;
+           display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center cards horizontally */
+    align-items: center;     /* Center cards vertically if needed */
+    gap: 20px;
+    margin: 0 auto;          /* Center the whole section */
+    max-width: 1200px;       /* Limit width on large screens */
+    box-sizing: border-box;
+        }
         }
         .card {
             background: white;
@@ -219,5 +228,6 @@ border-bottom: 4px solid #7f392d;
                 font-size: 32px;
             }
         }
+
 
 
