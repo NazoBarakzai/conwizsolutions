@@ -27,6 +27,56 @@
             margin-top: 10px;
             letter-spacing: 2px;
         }
+.card {
+    max-width: 350px;      /* Maximum width for large screens */
+    width: 90%;            /* Flexible width for smaller screens */
+    margin: 20px auto;     /* Center horizontally with spacing */
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    padding: 20px;
+    text-align: center;
+    overflow: hidden;
+    transition: 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.card-image {
+    width: 100%;
+    height: auto;           /* Auto height for responsive scaling */
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.card h3 {
+    font-size: 1.2rem;     /* Scales with device */
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.card p {
+    font-size: 0.95rem;
+    color: #666;
+}
+
+/* Media queries for extra responsiveness */
+@media (min-width: 768px) {
+    .card {
+        width: 45%;         /* Two cards per row on tablets */
+    }
+}
+
+@media (min-width: 1024px) {
+    .card {
+        width: 30%;         /* Three cards per row on desktops */
+    }
+}
         .para {
             font-size: 18px;
             font-weight: 300;
@@ -162,3 +212,4 @@ border-bottom: 4px solid #7f392d;
                 font-size: 32px;
             }
         }
+
