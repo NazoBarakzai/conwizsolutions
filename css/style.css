@@ -196,16 +196,28 @@ border-bottom: 4px solid #7f392d;
             text-decoration: none;
             
         }
-       .social-links a {
+     .social-links a {
     color: white;
     font-size: 24px;
-    margin: 0 10px;
+    margin: 0px 10px;
     transition: 0.3s;
-    text-decoration: no;
+    text-decoration: none;
+  
 }
-
+.small{
+    margin: 20px;
+}
+hr{
+    margin-top: 20px;
+}
 .social-icons a:hover {
     color: #7f392d; /* your theme color */
+}
+.otherlinks .prt{
+    text-decoration: none;
+    color: rgb(163, 163, 163);
+  font-size: 1rem;
+
 }
         @media (max-width: 768px) {
             .main-title {
@@ -228,6 +240,7 @@ border-bottom: 4px solid #7f392d;
                 font-size: 32px;
             }
         }
+
 
 
 
