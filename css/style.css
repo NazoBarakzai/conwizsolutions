@@ -105,6 +105,118 @@ nav {
         grid-template-columns: 1fr;
     }
 }
+/* ================================
+   DESKTOP VIEW OPTIMIZATION
+   (Screens wider than 1024px)
+   ================================ */
+@media (min-width: 1024px) {
+
+    /* HEADER */
+    header {
+        padding: 40px 0;
+    }
+
+    header img {
+        width: 140px;
+        height: auto;
+    }
+
+    .main-title {
+        font-size: 48px;
+        letter-spacing: 1px;
+    }
+
+    .para {
+        font-size: 18px;
+        margin-top: 5px;
+    }
+
+    /* NAVIGATION */
+    nav {
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+        padding: 20px 0;
+        font-size: 18px;
+    }
+
+    nav a {
+        padding: 8px 12px;
+        transition: 0.3s;
+    }
+
+    nav a:hover {
+        transform: translateY(-3px);
+        opacity: 0.85;
+    }
+
+    /* PROJECT SECTION */
+    .project {
+        padding: 80px 60px;
+    }
+
+    .project-title {
+        font-size: 42px;
+        margin-bottom: 10px;
+    }
+
+    .project-subtext {
+        font-size: 20px;
+        margin-bottom: 40px;
+    }
+
+    /* PROJECT GRID – wider, more elegant */
+    .project-grid {
+        width: 90%;
+        margin: 0 auto;
+        grid-template-columns: repeat(4, 1fr); /* 4 columns for desktop */
+        gap: 35px;
+    }
+
+    /* PROJECT CARDS */
+    .project-card {
+        padding: 18px;
+        border-radius: 14px;
+        transition: 0.3s ease;
+    }
+
+    .project-card img {
+        border-radius: 12px;
+        height: 200px;
+        object-fit: cover;
+        width: 100%;
+    }
+
+    .project-card h3 {
+        font-size: 20px;
+        margin-top: 12px;
+        text-align: center;
+    }
+
+    .project-card:hover {
+        transform: translateY(-8px);
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    }
+
+    /* FOOTER */
+    footer {
+        padding: 40px 0;
+    }
+
+    .social-links {
+        width: 70%;
+        margin: auto;
+    }
+
+    .social-links i {
+        font-size: 22px;
+        margin: 0 15px;
+    }
+
+    .otherlinks small {
+        font-size: 16px;
+    }
+}
 
 /* Services Card Styling - Responsive */
 .services {
