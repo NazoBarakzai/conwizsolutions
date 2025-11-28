@@ -77,11 +77,7 @@ header img {
 }
 
 /* Mobile Navigation */
-nav {
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-}
+
 
 .hamburger {
     display: none;
@@ -123,11 +119,16 @@ nav {
     }
 
     nav {
-        display: none;
-        flex-direction: column;
+        
+      
         background: rgba(0,0,0,0.9);
-        padding: 15px;
-        text-align: center;
+      
+   
+         display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 15px 0;
+    background: #7a2e24;
     }
 
     nav.show {
@@ -179,7 +180,7 @@ nav {
         gap: 40px;
         padding: 20px 0;
         font-size: 18px;
-    }
+       
 
     nav a {
         padding: 8px 12px;
@@ -404,14 +405,7 @@ ul {
             font-weight: 300;
             margin-top: 5px;
         }
-        nav {
-            background: #7a2e24;
-            display: flex;
-            justify-content: center;
-            gap: 30px;
-            padding: 15px 0;
-            flex-wrap: wrap;
-        }
+        
         nav .link {
             color: white;
             text-decoration: none;
@@ -643,6 +637,7 @@ hr{
                 font-size: 32px;
             }
         }
+
 
 
 
