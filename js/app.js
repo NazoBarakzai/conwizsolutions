@@ -28,13 +28,5 @@
         hamburger.addEventListener('mouseup', () => {
             hamburger.style.transform = 'scale(1)';
         });
-        function openModal(imageSrc, title) {
-    document.getElementById("modalImg").src = imageSrc;
-    document.getElementById("caption").innerText = title;
-    document.getElementById("imageModal").style.display = "block";
-}
-
-function closeModal() {
-    document.getElementById("imageModal").style.display = "none";
-}
+        
 
