@@ -213,7 +213,18 @@
 </div>
 
 <script src="js/app.js"></script>
+<script src="js/app.js">
+    function openModal(imageSrc, title) {
+    document.getElementById("modalImg").src = imageSrc;
+    document.getElementById("caption").innerText = title;
+    document.getElementById("imageModal").style.display = "block";
+}
 
+function closeModal() {
+    document.getElementById("imageModal").style.display = "none";
+}
+</script>
 
 </body>
 </html>
+
