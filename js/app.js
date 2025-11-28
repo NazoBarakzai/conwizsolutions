@@ -1,5 +1,5 @@
  function showAlert() {
-            alert("Welcome to ConwizSolutions — Let's build the future together!");
+            alert("Welcome to ConwizSolutions — Let's build the future together. We are your one-stop destination for all content & tech related stuffs that includes static websites, captivating writing, editing/proof reading which engages and inspires masses and designing attractive resume and posters that encapsulate your brand's essence and provides expert assistance to the students for multiple assignment works to elevate your ideas into impactful reality.");
         }
 
         function toggleMenu() {
@@ -37,3 +37,4 @@
 function closeModal() {
     document.getElementById("imageModal").style.display = "none";
 }
+
