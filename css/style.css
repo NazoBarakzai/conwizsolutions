@@ -504,7 +504,7 @@ color: #444;
 text-align: justify; 
 text-justify: inter-word;
 }
-/ Portfolio Section */
+/* Project Section  */
 .project {
 padding: 70px 20px;
 text-align: center;
@@ -645,5 +645,6 @@ display: block;
 font-size: 32px;
 }
 }
+
 
 
